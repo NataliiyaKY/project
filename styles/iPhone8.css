@@ -1,0 +1,260 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    body {
+        margin: 0 6.4vw 0 6.4vw;
+        background-color: #19191B;
+    }
+
+    /*-----------------------------------------page1-------------------------------------------------*/
+    .p1 {
+        height: 156.2vh;
+    }
+
+    .p1_head {
+        height: 21vh;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-top: 6vh;
+        margin-bottom: 9.9vh;
+    }
+
+    .logo > img {
+        height: 4vh;
+        width: 7.2vw;
+    }
+
+    .logo > p {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .p1_head > nav {
+        display: none;
+    }
+
+    .p1_head > nav > a {
+        display: none;
+    }
+
+    .p1_head > button {
+        display: none;
+    }
+
+    .p1_content {
+        height: 135.2vh;
+        display: block;
+    }
+
+    .p1_content > .p1_text {
+        justify-content: flex-start;
+    }
+
+    .p1_content > .p1_text > h1 {
+        height: 28.3vh;
+        width: 87.2vw;
+        font-size: 42px;
+        line-height: 150%; /* 63px */
+    }
+
+    .p1_content > .p1_text > p {
+        height: 14.4vh;
+        width: 87.2vw;
+        font-size: 16px;
+        line-height: 150%; /* 24px */
+        text-align: left;
+    }
+
+    .p1_content > .p1_text > button {
+        height: 6.6vh;
+        width: 44.2vw;
+        font-size: 16px;
+    }
+
+    .p1_content > .p1_image {
+        height: 60.86vh;
+        width: 87.2vw;
+    }
+
+    .p1_content > .p1_image > img {
+        height: 60.86vh;
+        width: 99.7vw;
+    }
+
+    /*--------------------------------------------------------page2--------------------------------------------------------*/
+    .p2 {
+        height: 100vh;
+        /*background-color: pink;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .p2_head {
+        height: 30vh;
+        width: 87.2vw;
+        flex-direction: column;
+    }
+
+    .p2_head > h1 {
+        height: 16.2vh;
+        width: 87.2vw;
+        font-size: 36px;
+        line-height: 150%; /* 54px */
+    }
+
+    .p2_head > p {
+        height: 7.2vh;
+        width: 87.2vw;
+        font-size: 16px;
+        line-height: 150%; /* 24px */
+        margin-top: 4.5vh;
+        margin-left: 0;
+    }
+
+    .p2_content {
+        height: 27.6vh;
+        width: 87.2vw;
+        margin-top: 5vh;
+    }
+
+    .p2_content > img {
+        height: 27.6vh;
+        width: 87.2vw;
+    }
+
+    /*-------------------------------------------------page3------------------------------------------------------------*/
+    .p3 {
+        height: 328.3vh;
+    }
+
+    .p3 > .grid {
+        display: block;
+    }
+
+    .p3_head > h1 {
+        height: 16.2vh;
+        width: 87.2vw;
+        font-size: 36px;
+        line-height: 150%; /* 54px */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid > .container {
+        height: 43vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3.6vh 0 3.6vh 0;
+    }
+
+    .grid > .container > .circle {
+        height: 10.34vh;
+        width: 18.4vw;
+    }
+
+    .grid > .container > .circle > img {
+        height: 4.8vh;
+        width: 8.5vw;
+    }
+
+    .grid > .container > p {
+        height: 8.3vh;
+        width: 66vw;
+        font-size: 16px;
+        line-height: 28px; /* 175% */
+    }
+
+    /*----------------------------------------------------page4-----------------------------------------------------------*/
+    .p4 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p4 > h1 {
+        height: 16.2vh;
+        width: 87.2vw;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 150%; /* 54px */
+        padding-top: 0;
+        padding-bottom: 7.5vh;
+    }
+
+    .p4_content {
+        display: none;
+    }
+
+    .p4_content_iPhone {
+        display: block;
+        height: 36.9vh;
+        width: 87.2vw;
+    }
+
+    /*----------------------------------------------------page5----------------------------------------------------------*/
+    .p5 {
+        height: 138.5vh;
+    }
+
+    .p5_head {
+        height: 62.5vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .p5_head > h1 {
+        height: 24.3vh;
+        width: 87.2vw;
+        font-size: 36px;
+        line-height: 150%; /* 54px */
+    }
+
+    .p5_head > button {
+        height: 6.6vh;
+        width: 44.3vw;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    .p5_footer {
+        height: 76vh;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .p5_footer > .logo {
+        margin-bottom: 0;
+    }
+
+    .p5_footer > .policy {
+        height: 24.6vh;
+        width: 47vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 40px;
+    }
+
+    .p5_footer > .policy > p {
+        color: rgba(255, 255, 255, 0.70);
+        font-size: 18px;
+        font-weight: 700;
+        font-family: Lato;
+        line-height: 28px; /* 155.556% */
+        margin: 0;
+    }
+
+    .p5_footer > .licence {
+        height: 4.1vh;
+        width: 67.7vw;
+        font-size: 18px;
+        line-height: 88px; /* 237.5% */
+        margin: 0;
+    }
+}

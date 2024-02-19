@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0 8.3vw 0 8.3vw;
+    background-color: #19191B;
+}
+
+/*---------------------------------------------------page_1--------------------------------------------------*/
+.p1 {
+    height: 93.4vh;
+}
+
+.p1_head {
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo > img {
+    height: 3.9vh;
+    width: 2.7vw;
+}
+
+.logo > p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.94vw;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 1vh;
+}
+
+.p1_head > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1_head > nav > a {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato;
+    font-size: 1.25vw;
+    font-weight: 400;
+    margin: 1.4vw;
+    text-decoration: none;
+}
+
+.p1_head > button {
+    height: 4.3vh;
+    width: 10.9vw;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    backdrop-filter: blur(1px);
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 1.11vw;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    background-color: #19191B;
+}
+
+.p1_content {
+    height: 69.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1_content > .p1_text {
+    width: 41.6vw;
+    height: 69.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p1_content > .p1_text > h1 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 5.56vw;
+    font-weight: 400;
+    line-height: 5.83vw; /* 105% */
+    margin: 0;
+}
+
+.p1_content > .p1_text > p {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato;
+    font-size: 1.46vw;
+    font-weight: 400;
+    line-height: 2.71vw; /* 185.714% */
+    letter-spacing: -0.657px;
+    text-align: left;
+    width: 38vw;
+}
+
+.p1_content > .p1_text > button {
+    height: 5.6vh;
+    width: 14.2vw;
+    border-radius: 4px;
+    background: #5454D4;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1.38vw;
+    font-weight: 700;
+    margin-top: 3vh;
+}
+
+.p1_content > .p1_image {
+    width: 41.6vw;
+    height: 69.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1_content > .p1_image > img {
+    height: 69.6vh;
+    width: 45.6vw;
+}
+
+/*----------------------------------------page_2---------------------------------------------------------*/
+.p2 {
+    height: 87.3vh;
+}
+
+.p2_head {
+    height: 20.6vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p2_head > h1 {
+    width: 41.6vw;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 4.17vw;
+    font-weight: 400;
+    line-height: 4.86vw; /* 116.667% */
+    margin: 0;
+}
+
+.p2_head > p {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato;
+    font-size: 1.46vw;
+    font-weight: 400;
+    line-height: 2.71vw; /* 185.714% */
+    letter-spacing: -0.657px;
+    width: 41.6vw;
+    margin-left: 10.2vw;
+    margin-top: 0;
+}
+
+.p2_content > img {
+    height: 65.4vh;
+    width: 83.3vw;
+}
+
+/*---------------------------------------------------page_3------------------------------------------------------*/
+.p3 {
+    height: 100vh;
+    margin: 0;
+}
+
+.p3_head {
+    height: 30vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p3_head > h1 {
+    width: 48.26vw;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 4.17vw;
+    font-weight: 400;
+    line-height: 4.86vw; /* 116.667% */
+}
+
+.p3 > .grid {
+    display: grid;
+    grid-template-columns: 27.7vw 27.7vw 27.7vw;
+    grid-template-rows: 35.5vh 35.5vh;
+}
+
+.grid > .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.grid > .container > h1 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 1.94vw;
+    font-weight: 600;
+}
+
+.grid > .container > p {
+    width: 20.76vw;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-family: Lato;
+    font-size: 1.39vw;
+    font-weight: 400;
+    line-height: 1.94vw; /* 140% */
+    letter-spacing: -0.5px;
+}
+
+.grid > .container > .circle {
+    height: 6.73vh;
+    width: 4.79vw;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.grid > .container > .circle > img {
+    height: 3.1vh;
+    width: 2.2vw;
+    position: absolute;
+}
+
+/*----------------------------------page4------------------------------------------------*/
+.p4 {
+    height: 84.9vh;
+}
+
+.p4 > h1 {
+    margin: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 4.03vw;
+    font-weight: 800;
+    padding-top: 7.8vh;
+}
+
+.p4_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15.7vh 0 25.3vh 0;
+}
+
+.p4_content > .border {
+    height: 29.4vh;
+    width: 26.7vw;
+    border: none;
+    border-radius: 14px;
+    background-color: #1E1E20;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p4_content > .border > img {
+    height: 24.7vh;
+    width: 23.3vw;
+}
+
+.p4_content_iPhone {
+    display: none;
+}
+
+/*    -------------------------------------------------page5----------------------------------------------------*/
+.p5 {
+    height: 67.3vh;
+}
+
+.p5_head {
+    height: 49.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p5_head > h1 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 4.16vw;
+    font-weight: 400;
+    width: 57.4vw;
+    margin: 0;
+}
+
+.p5_head > button {
+    width: 14vw;
+    height: 5.9vh;
+    border-radius: 5px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 1.46vw;
+    font-weight: 700;
+}
+
+.p5_footer {
+    height: 18.1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p5_footer > .licence {
+    height: 3.7vh;
+    width: 19.8vw;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-family: Lato;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 2.64vw; /* 237.5% */
+    letter-spacing: -0.5px;
+}
+
+.p5_footer > .policy {
+    display: none;
+}
